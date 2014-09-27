@@ -1,17 +1,17 @@
 [user]
-	name = Ken
-	email = kenkyu@shiro
+        name = Ken
+        email = kenkyu@shiro
 [color]
-	ui = auto
+        ui = auto
 [alias]
-	co = checkout
-	ci = commit
-	br = branch
-	st = status
-    pl = pull
-    ps = push
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        co = checkout
+        ci = commit
+        br = branch
+        st = status
+        pl = pull
+        ps = push
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [http]
-    sslVerify = False
+        sslVerify = False
 [credential]
-    helper = gnomekeyring
+        helper = gnomekeyring
